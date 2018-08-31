@@ -11,9 +11,9 @@ default: &default
 
 development:
   <<: *default
-  database: development
+  database: development_
   username: postgres
-  password: sala2
+  password: andap
   host: localhost
 
 # Warning: The database defined as "test" will be erased and
@@ -21,9 +21,9 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: test
+  database: test_
   username: postgres
-  password: sala2
+  password: andap
   host: localhost
 
 production:
